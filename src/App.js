@@ -3,17 +3,10 @@ import './App.css';
 import {BrowserRouter, Link, Route, Switch} from 'react-router-dom';
 
 //importing all components
-//hombePage
 import Homepage from './components/homepage/homepage';
-//blog
-import BlogCards from './components/blog/cards';
-import BlogContainer from './components/blog/container';
-import BlogSearch from './components/blog/search';
-//contacts
+import Blog from './components/blog/blog';
 import Contacts from './components/contacts/contacts';
-//about
 import About from './components/about/about';
-//aboutClients
 import AboutClients from './components/aboutClients/aboutClients';
 
 class App extends Component {
@@ -22,6 +15,9 @@ class App extends Component {
     <BrowserRouter>
     <Switch>
     <Route path="/home" component={Homepage} />
+    <Route path="/about" component={About} />
+    <Route path="/contacts" component={Contacts} />
+    <Route path="aboutclients" component={AboutClients} />
     </Switch>
     </BrowserRouter>
     );
