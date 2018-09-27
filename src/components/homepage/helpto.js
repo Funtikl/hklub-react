@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+//footer is within helpto
+import Footer from '../footer';
 class HelpTo extends Component {
   render() {
     return (
@@ -30,6 +31,7 @@ class HelpTo extends Component {
         </div>
 
 </section>
+<Footer />
       </div>
     );
   }
