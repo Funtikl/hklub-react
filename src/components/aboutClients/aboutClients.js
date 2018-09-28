@@ -1,12 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Header from '../header';
+import Cover from '../cover';
 import Footer from '../footer';
 
+const AboutClients = () => {
 
-class AboutClients extends Component {
-  render() {
     return (
       <div className="aboutClients">
+      <Header />
+      <Cover />
       <div className="container">
   <div className="card1 blog_top">
 
@@ -23,9 +25,9 @@ class AboutClients extends Component {
 
   </div>
 </div>
+  <Footer />
       </div>
-    );
-  }
+    )
 }
 
 export default AboutClients;

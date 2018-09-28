@@ -4,7 +4,7 @@ import Footer from '../footer';
 class HelpTo extends Component {
   render() {
     return (
-      <div className="Haeder">
+      <div className="Helpto">
       <section  className="world">
     <div className="container">
         <div className="row">

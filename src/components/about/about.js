@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Header from '../header';
 import Footer from '../footer';
 
-class About extends Component {
-  render() {
+const About = () => {
+
     return (
       <div>
       <Header />
@@ -28,8 +28,7 @@ class About extends Component {
       <Footer />
       </div>
       </div>
-    );
-  }
+    )
 }
 
 export default About;

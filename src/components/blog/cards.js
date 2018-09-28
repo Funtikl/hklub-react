@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Header extends Component {
-  render() {
+const Cards = () => {
     return (
-      <div className="Haeder">
+      <div className="Cards">
         Test
       </div>
-    );
-  }
+    )
 }
 
-export default Header;
+export default Cards;

@@ -15,9 +15,10 @@ class App extends Component {
     <BrowserRouter>
     <Switch>
     <Route path="/home" component={Homepage} />
+    <Route path="/blog" component={Blog}/>
     <Route path="/about" component={About} />
     <Route path="/contacts" component={Contacts} />
-    <Route path="aboutclients" component={AboutClients} />
+    <Route path="/aboutclients" component={AboutClients} />
     </Switch>
     </BrowserRouter>
     );
