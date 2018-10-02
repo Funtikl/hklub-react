@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 import Header from '../header';
 import Cover from '../cover';
 import Footer from '../footer';
-import Activities from './activities';
 import Helpto from './helpto';
 import Lastpost from '../lastPost';
+import Carousels from './carousel';
 
 const Homepage = () => {
     return(
@@ -12,7 +12,7 @@ const Homepage = () => {
         <Header />
         <Cover />
         <Lastpost />
-        <Activities/>
+        <Carousels />
         <Helpto />
         <Footer />
       </div>

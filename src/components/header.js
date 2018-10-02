@@ -1,33 +1,29 @@
 import React, { Component } from 'react';
+import {Nav, NavItem, NavLink} from 'reactstrap';
 class Header extends Component {
   render() {
     return (
       <div className="Haeder">
       <header className="homepage_top">
-              <ul className="nav justify-content-center">
-                  <li className="nav-item">
-                      <a className="nav-link active" href="homepage.html">Main</a>
-                  </li>
-                  <li className="nav-item">
-                      <a className="nav-link" href="blog.html">Blog</a>
-                  </li>
-                  <li className="nav-item">
-                      <a className="nav-link" href="aboutme.html">About Us</a>
-                  </li>
-                  <li className="nav-item">
-                  <a className="nav-link" href="albumclients.html">Album Clients</a>
-                  </li>
-                  <li className="nav-item">
-                      <a className="nav-link" href="contacts.html">Contacts</a>
-                  </li>
-              </ul>
+        <Nav className='nav' justified={false} style={{justifyContent:'center', backgroundColor:'blue'}}>
+            <NavItem>
+                <NavLink className="nav-link" href="/home" >Main</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink className="nav-link" href="/blog">Blog</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink className="nav-link" href="/aboutus"> About Us </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink className="nav-link" href="/albumclients"> Album Clients </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink className="nav-link" href="/contacts"> Contacts </NavLink>
+            </NavItem>
+        </Nav>
 </header>
-<div className="content">
-            <div className="transbox">
-                <h1 className="sitename"> Həmrəylik Klubu</h1>
-                <h4><i> Güc birlikdədir</i></h4>
-            </div>
-        </div>
+
       </div>
     );
   }

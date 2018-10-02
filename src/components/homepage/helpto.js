@@ -31,7 +31,6 @@ class HelpTo extends Component {
         </div>
 
 </section>
-<Footer />
       </div>
     );
   }
