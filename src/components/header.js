@@ -1,29 +1,45 @@
-import React, { Component } from 'react';
-import {Nav, NavItem, NavLink} from 'reactstrap';
+import React, { Component } from "react";
+import { Nav, NavItem, NavLink } from "reactstrap";
 class Header extends Component {
   render() {
     return (
       <div className="Haeder">
-      <header className="homepage_top">
-        <Nav className='nav' justified={false} style={{justifyContent:'center', backgroundColor:'blue'}}>
+        <header className="homepage_top">
+          <Nav
+            className="nav"
+            justified={false}
+            style={{ justifyContent: "center", backgroundColor: "blue" }}
+          >
             <NavItem>
-                <NavLink className="nav-link" href="/home" >Main</NavLink>
+              <NavLink className="nav-link" href="/home">
+                Main
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" href="/blog">Blog</NavLink>
+              <NavLink className="nav-link" href="/blog">
+                Blog
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" href="/aboutus"> About Us </NavLink>
+              <NavLink className="nav-link" href="/aboutus">
+                {" "}
+                About Us{" "}
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" href="/albumclients"> Album Clients </NavLink>
+              <NavLink className="nav-link" href="/albumclients">
+                {" "}
+                Album Clients{" "}
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" href="/contacts"> Contacts </NavLink>
+              <NavLink className="nav-link" href="/contacts">
+                {" "}
+                Contacts{" "}
+              </NavLink>
             </NavItem>
-        </Nav>
-</header>
-
+          </Nav>
+        </header>
       </div>
     );
   }

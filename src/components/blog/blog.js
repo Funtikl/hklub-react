@@ -1,9 +1,9 @@
-import React from 'react';
-import Header from '../header';
-import Cover from '../cover';
-import Footer from '../footer';
-import Category from './category';
-import Cards from './cards';
+import React from "react";
+import Header from "../header";
+import Cover from "../cover";
+import Footer from "../footer";
+import Category from "./category";
+import Cards from "./cards";
 
 const Blog = () => {
   return (
@@ -14,7 +14,7 @@ const Blog = () => {
       <Cards />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
 export default Blog;
