@@ -7,24 +7,7 @@ import {
   CarouselCaption
 } from "reactstrap";
 
-const styles = {
-  img: {
-    minWidth: "100%",
-    minHeight: "450px",
-    maxHeight: "450px"
-  },
-  transbox: {
-    textAlign: "center",
-    backgroundColor: "#ffffff",
-    opacity: "0.8",
-    position: "absolute",
-    margin: "auto",
-    top: "0",
-    left: "64%",
-    height: "400px",
-    width: "350px"
-  }
-};
+
 const items = [
   {
     src: "http://www.musavat.az/wp-content/uploads/2016/06/mod-93925.jpg.jpg",
@@ -100,7 +83,7 @@ class Carousels extends Component {
           onExited={this.onExited}
           key={item.src}
         >
-          <img style={styles.img} src={item.src} alt={item.altText} />
+          <img className={'carousel'} src={item.src} alt={item.altText} />
           <CarouselCaption
             captionText={item.caption}
             captionHeader={item.caption}

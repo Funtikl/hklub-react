@@ -11,7 +11,7 @@ class Header extends Component {
             style={{ justifyContent: "center", backgroundColor: "blue" }}
           >
             <NavItem>
-              <NavLink className="nav-link" href="/home">
+              <NavLink className="nav-link" href="/">
                 Main
               </NavLink>
             </NavItem>
