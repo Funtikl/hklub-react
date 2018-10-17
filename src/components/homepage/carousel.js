@@ -78,12 +78,12 @@ class Carousels extends Component {
 
     const slides = items.map(item => {
       return (
-        <CarouselItem
+        <CarouselItem className="carousel-item"
           onExiting={this.onExiting}
           onExited={this.onExited}
           key={item.src}
         >
-          <img className={'carousel'} src={item.src} alt={item.altText} />
+          <img src={item.src} alt={item.altText} />
           <CarouselCaption
             captionText={item.caption}
             captionHeader={item.caption}
@@ -93,7 +93,7 @@ class Carousels extends Component {
     });
 
     return (
-      <Carousel
+      <Carousel className="carouselClass"
         activeIndex={activeIndex}
         next={this.next}
         previous={this.previous}

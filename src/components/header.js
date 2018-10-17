@@ -4,11 +4,11 @@ class Header extends Component {
   render() {
     return (
       <div className="Haeder">
-        <header className="homepage_top">
+        <header className="homepage_top" >
           <Nav
             className="nav"
             justified={false}
-            style={{ justifyContent: "center", backgroundColor: "blue" }}
+            style={{ justifyContent: "center" }}
           >
             <NavItem>
               <NavLink className="nav-link" href="/">

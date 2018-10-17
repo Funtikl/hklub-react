@@ -124,12 +124,12 @@ a.heart{
     max-width:1050px;
     top:60px;
 }
-    .carousel-item img {
+.carousel-item img {
     min-width: 100%;
     max-height:450px;
     min-height: 450px;
 }
-h1.carousel_header{
+.carousel_header{
     font-size: 50px;
     padding:10px;
     margin-left: 440px;
@@ -140,7 +140,7 @@ h1.carousel_header{
     opacity: 0.8;
     position: absolute;
     margin:auto;
-    top: 1230px;
+    top: 0;
     left: 64%;
     height: 400px;
     width: 350px;
@@ -167,11 +167,10 @@ h1.carousel_header{
     margin: auto;
     width: 950px;
 }
-    h1.world_heading{
+h1.world_heading{
     font-size: 50px;
     padding:40px;
     margin-left: 15%;
-    margin-top:40px;
 }
 .rounded-circle{
     height: 300px;
