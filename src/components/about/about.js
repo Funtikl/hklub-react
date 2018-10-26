@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import Header from "../header";
 import Footer from "../footer";
-
+import Cover from "../cover";
 const About = () => {
   return (
     <div>
       <Header  />
+      <Cover />
       <div className="About">
         <div className="container">
           <div className="card1 blog_top">

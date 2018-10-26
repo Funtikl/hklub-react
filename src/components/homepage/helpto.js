@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Col, Row } from "reactstrap";
+import {Container, Col, Row } from "reactstrap";
 //footer is within helpto
 import Footer from "../footer";
 
@@ -7,7 +7,7 @@ import Footer from "../footer";
 class HelpTo extends Component {
   render() {
     return (
-      <div className="Helpto">
+      <Container className="Helpto">
         <section className="world">
           <div className="container">
             <Row className="row">
@@ -61,7 +61,7 @@ class HelpTo extends Component {
             </div>
           </div>
         </section>
-      </div>
+      </Container>
     );
   }
 }

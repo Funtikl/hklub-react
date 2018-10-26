@@ -22,7 +22,7 @@ const Lastpost = () => {
         </a>
         <p>
           <small>
-            <span>янв. 8 &#x2027</span>
+            <span>янв. 8 &#x2027;</span>
             <span> 1мин. чтения</span>
           </small>
         </p>

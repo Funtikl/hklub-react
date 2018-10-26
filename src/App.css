@@ -40,7 +40,7 @@ html.body{
     opacity: 0.4;
     position: absolute;
     margin:auto;
-    top: 50px;
+    top: 70px;
     left: 25%;
     height: 250px;
     width: 600px;
@@ -140,7 +140,7 @@ h1.carousel_header{
     opacity: 0.8;
     position: absolute;
     margin:auto;
-    top: 1230px;
+    top: 1270px;
     left: 64%;
     height: 400px;
     width: 350px;
@@ -248,6 +248,9 @@ div.justify-content-center{
 
 .search_part{
     margin-left: 270px;
+}
+.blog_links{
+    color:black;
 }
 a.active_blog_link:visited{
     color: green;
@@ -423,6 +426,9 @@ span.test{
     position: relative;
     margin-top:40px;
 }
+.admin_container{
+    padding:30px;
+}
 .bottom_p{
     font-size: 13px;
 }
@@ -474,4 +480,7 @@ span.test{
     width: 300px;
     height: 300px;
     margin-top:40px;
+}
+.blogContainer{
+    width: 60%;
 }
